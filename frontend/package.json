@@ -1,0 +1,47 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test:payments": "node --test --test-isolation=none test/payments.test.mjs",
+    "test:google-auth": "node --test --test-isolation=none test/google-identity.test.mjs",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "test:auth": "node --test --test-isolation=none test/auth-refresh.test.mjs",
+    "test:notifications": "node --test --test-isolation=none test/notifications.test.mjs",
+    "test:ratings": "node --test --test-isolation=none test/ratings.test.mjs",
+    "test:messages": "node --test --test-isolation=none test/messages.test.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.13.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "axios": "^1.21.0",
+    "next-themes": "^0.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.91.0",
+    "react-redux": "^9.3.1",
+    "react-router-dom": "^7.18.5",
+    "socket.io-client": "^4.8.4",
+    "tailwindcss": "^4.3.3",
+    "validator": "13.15.35"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/validator": "^13.15.10",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.0",
+    "vite": "^8.3.5"
+  }
+}

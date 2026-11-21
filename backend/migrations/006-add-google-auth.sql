@@ -1,0 +1,5 @@
+BEGIN;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS "googleId" VARCHAR(255);
+ALTER TABLE users ALTER COLUMN password DROP NOT NULL;
+CREATE UNIQUE INDEX IF NOT EXISTS users_google_id_unique ON users ("googleId");
+COMMIT;

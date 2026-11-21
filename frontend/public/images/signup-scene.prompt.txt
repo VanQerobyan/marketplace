@@ -1,0 +1,10 @@
+Tool: built-in image_gen.imagegen (edit)
+Input file: frontend/public/images/marketplace-hero.png
+Output file: frontend/public/images/signup-scene.png
+Generated source: /home/vanqerobyan/.codex/generated_images/01a1ab7e-7682-70c1-8b76-db3c545e993b/exec-1b4e95c1-7ab1-483a-93cf-8761569d4a3a.png
+Dimensions: 1536 x 1024 (3:2 landscape)
+Transparent background: false
+
+Exact prompt:
+Use case: precise-object-edit. Asset type: full-screen marketplace signup background photograph. Input image 1 is the edit target. Change ONLY the camera framing: pull the camera noticeably farther back so the complete existing product still-life group is about 65–70 percent of its original apparent size within the same landscape 3:2 canvas. Naturally extend the warm studio wall, headroom and stone floor around the group. Keep all original products and their relative arrangement exactly: graphite smartphone standing at left on a small round stone plinth; espresso brown headphones in front at center-left; cream-and-tan sneaker on the larger rear stone plinth at right; brown smartwatch on small front-right plinth; green potted plant behind at right. Preserve recognizable product shapes, espresso leather, cream suede, natural stone texture, Baroque Brown/Palomino color palette, warm sunlight and soft plant shadows, and realistic photographic materials. Keep the entire product group centered slightly lower with much more empty studio wall above, especially unobstructed upper-left negative space suitable for community text. Every product must remain complete and visible. Maintain continuous natural studio wall and floor, no seams or frames. Do not add or remove objects. No text, logos, watermark, labels, interface elements, or people. This must visibly feel zoomed out, not a new close crop.
+
